@@ -14,16 +14,7 @@ def index():
 
         conn = None
         try:
-            #INN Master DB.
-            #
-            # conn = mysql.connector.connect(host='mysql-master.service.inneractive.consul',
-            #                                port='3306',
-            #                                database='actors_db',
-            #                                user='keshavp',
-            #                                password='ca2vYGB4fuc4YPCF',
-            #                                auth_plugin='mysql_native_password')
-
-            #Local DB.
+            # Local DB.
             conn = mysql.connector.connect(host='127.0.0.1',
                                            port='3306',
                                            database='actors_db',
